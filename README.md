@@ -7,15 +7,15 @@ Experienced in C++, Java, and modern web technologies like Next.js and TypeScrip
 ---
 
 ### Technical Expertise
-* [cite_start]**Languages:** C++, Java, JavaScript (ES6+), TypeScript [cite: 97, 98, 99]
-* [cite_start]**Frameworks:** Next.js, React, Tailwind CSS, JavaFX [cite: 103, 104, 105]
-* [cite_start]**Tools:** Git, GitHub, MySQL, Vercel [cite: 109, 110]
+* **Languages:** C++, Java, JavaScript (ES6+), TypeScript 
+* **Frameworks:** Next.js, React, Tailwind CSS, JavaFX 
+* **Tools:** Git, GitHub, MySQL, Vercel 
 
 ### Featured Projects
-* [cite_start]**Socket-Based Chat Application:** Real-time client-server communication using Socket Programming[cite: 78, 79].
-* [cite_start]**Point of Sale (POS) System:** Retail management system built with Java and JavaFX[cite: 86, 87].
-* [cite_start]**Library Management System:** Console-based C++ application for data handling[cite: 89, 90].
+* **Socket-Based Chat Application:** Real-time client-server communication using Socket Programming.
+* **Point of Sale (POS) System:** Retail management system built with Java and JavaFX.
+* **Library Management System:** Console-based C++ application for data handling.
 
 ### Contact & Professional Links
 * **Email:** kazmianeeqai13@gmail.com
-* [cite_start]**Portfolio:** [View Live Site](https://modern-dev-portfolio-five.vercel.app/) [cite: 85]
+* **Portfolio:** [View Live Site](https://modern-dev-portfolio-five.vercel.app/) 
