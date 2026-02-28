@@ -12,9 +12,10 @@ Experienced in C++, Java, and modern web technologies like Next.js and TypeScrip
 * **Tools:** Git, GitHub, MySQL, Vercel 
 
 ### Featured Projects
-* **Socket-Based Chat Application:** Real-time client-server communication using Socket Programming.
-* **Point of Sale (POS) System:** Retail management system built with Java and JavaFX.
-* **Library Management System:** Console-based C++ application for data handling.
+* **Digital Portfolio:** A responsive web application built with **Next.js 14** and **TypeScript**, deployed using a **CI/CD pipeline** via GitHub and Vercel.
+* **Socket-Based Chat Application:** Real-time client-server communication system implemented using Java Socket Programming.
+* **Point of Sale (POS) System:** A retail management and automated billing system developed with **Java**, **JavaFX**, and **Swing**.
+* **Library Management System:** A console-based **C++** application focused on advanced logical structuring and data handling.
 
 ### Contact & Professional Links
 * **Email:** kazmianeeqai13@gmail.com
