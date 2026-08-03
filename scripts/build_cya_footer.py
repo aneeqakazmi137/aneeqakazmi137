@@ -1,0 +1,74 @@
+import os
+
+def generate_cya_footer():
+    out_path = os.path.join(os.path.dirname(__file__), "..", "assets", "cya-footer.svg")
+
+    svg = """<svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes pulse-cya {
+        0%, 100% { opacity: 0.85; transform: scale(0.98); }
+        50% { opacity: 1; transform: scale(1.03); }
+      }
+      @keyframes sparkle-dot {
+        0%, 100% { opacity: 0.3; transform: scale(0.7); }
+        50% { opacity: 1; transform: scale(1.3); }
+      }
+      .cya-text {
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        font-size: 44px;
+        font-weight: 900;
+        letter-spacing: 6px;
+        animation: pulse-cya 3s ease-in-out infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+      .sparkle {
+        animation: sparkle-dot 2.5s ease-in-out infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+    </style>
+
+    <!-- Vibrant Cosmic Title Gradient -->
+    <linearGradient id="cya-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="30%" stop-color="#F472B6" />
+      <stop offset="65%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+
+    <!-- Subtle Glow Filter -->
+    <filter id="cya-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Ambient Stars Surrounding CYA! -->
+  <g class="sparkle" style="animation-delay: 0s;">
+    <path d="M 120 45 L 122 49 L 126 51 L 122 53 L 120 57 L 118 53 L 114 51 L 118 49 Z" fill="#F472B6" />
+  </g>
+  <g class="sparkle" style="animation-delay: 1.2s;">
+    <path d="M 380 45 L 382 49 L 386 51 L 382 53 L 380 57 L 378 53 L 374 51 L 378 49 Z" fill="#C084FC" />
+  </g>
+  <circle cx="150" cy="25" r="2" fill="#FFFFFF" class="sparkle" style="animation-delay: 0.6s;" />
+  <circle cx="350" cy="75" r="2" fill="#818CF8" class="sparkle" style="animation-delay: 1.8s;" />
+
+  <!-- Main Vibrant Cosmic CYA! Text -->
+  <g transform="translate(250, 62)">
+    <text text-anchor="middle" class="cya-text" fill="url(#cya-grad)" filter="url(#cya-glow)">
+      CYA!
+    </text>
+  </g>
+</svg>
+"""
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(svg)
+    print(f"Wrote {out_path}")
+
+if __name__ == "__main__":
+    generate_cya_footer()

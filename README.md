@@ -143,9 +143,10 @@ kazmianeeqai13@gmail.com
   <img src="https://visitor-badge.laobi.icu/badge?page_id=aneeqakazmi137.aneeqakazmi137&left_color=26264C&right_color=724972&left_text=Profile%20Views" alt="Profile Views" />
 </p>
 
-<p align="center"><sub><i>Cosmic Night Theme · Aneeqa Kazmi</i></sub></p>
-
 <br>
 
-<p align="center"><b>CYA!</b></p>
+<p align="center">
+  <img src="./assets/cya-footer.svg" width="300" alt="CYA!" />
+</p>
+
 
