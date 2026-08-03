@@ -75,7 +75,15 @@
 <h2 align="center">✦ GitHub Activity</h2>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aneeqakazmi137&theme=tokyonight&background=00000000&border=724972&ring=B199DB&fire=B199DB&currStreakLabel=E9CCD3&hide_border=true" alt="GitHub Streak" />
+  <img src="./contrib-heatmap.svg" width="700" alt="Contribution heatmap" />
+</p>
+
+<br><br>
+
+<h2 align="center">✦ At a Glance</h2>
+
+<p align="center">
+  <img src="./info-card.svg" width="490" alt="Info card" />
 </p>
 
 <br><br>
@@ -121,5 +129,11 @@ kazmianeeqai13@gmail.com
 </p>
 
 <br>
+
+<br>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aneeqakazmi137&label=Profile%20Views&color=724972&style=flat" alt="Profile views" />
+</p>
 
 <p align="center"><sub><i>From aneeqakazmi137</i></sub></p>
