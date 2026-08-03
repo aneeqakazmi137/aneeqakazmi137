@@ -4,11 +4,10 @@
   </a>
 </p>
 
-<!-- Top Typing Headline with Sharingan reference and custom business-line -->
+<!-- Top Typing Headline -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=3000&color=56D4DD&center=true&vCenter=true&width=655&height=44&lines=Goal%20is%20to%20awaken%20my%20Sharingan%20in%20code...;Django%20Developer%20|%20Future%20Entrepreneur" alt="Typing headlines" />
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=3000&color=56D4DD&center=true&vCenter=true&width=655&height=44&lines=Goal%20is%20to%20awaken%20my%20Sharingan%20in%20code...;This%20is%20my%20nindo%20way." alt="Typing headlines" />
 </p>
-
 <!-- Replace generic dividers with subtle anime background and spacing -->
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Anime Divider" />
