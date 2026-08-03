@@ -5,26 +5,30 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=1000&color=56d4dd&center=true&vCenter=true&width=655&height=44&lines=Goal%20is%20to%20awaken%20my%20Sharingan%20in%20code...;Tea%20tea%20tea" alt="Typing headlines" />
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=3000&color=56D4DD&center=true&vCenter=true&width=655&height=44&lines=Goal%20is%20to%20awaken%20my%20Sharingan%20in%20code...;Future%20Software%20Engineer%20%C3%97%20Entrepreneur." alt="Typing headlines" />
 </p>
 
-<!-- Anime Decorative Divider -->
+<br />
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Anime Divider" />
 </p>
 
+<br />
+
 <p align="center">
-  <img src="https://img.shields.io/badge/ABOUT%20ME-⚡%20NINDO%20WAY-FF4500?style=for-the-badge&logoColor=white" alt="About Me Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=161b22&height=65&section=header&text=⚡%20ABOUT%20ME&fontSize=22&fontColor=2f81f7&animation=fadeIn" width="100%" alt="About Me Header" />
 </p>
 
-### 🚀 About Me
+<p align="center">
+  <b>BSCS Student @ COMSATS</b> &nbsp;|&nbsp; <i>Learning &amp; building dev projects that you might find useful.</i>
+</p>
 
-BSCS Student @ COMSATS | learning &amp; building dev projects that you might find useful.
-
----
+<br />
+<br />
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TECH%20STACK-🎮%20INVENTORY-8A2BE2?style=for-the-badge&logoColor=white" alt="Tech Stack Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=161b22&height=65&section=header&text=🎮%20TECH%20INVENTORY&fontSize=22&fontColor=8A2BE2&animation=fadeIn" width="100%" alt="Tech Stack Header" />
 </p>
 
 <p align="left">
@@ -52,55 +56,55 @@ BSCS Student @ COMSATS | learning &amp; building dev projects that you might fin
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=vscodium&logoColor=white" alt="VS Code" />
 </p>
 
----
+<br />
+<br />
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CONNECT-📡%20TRANSMISSION-00FF7F?style=for-the-badge&logoColor=white" alt="Connect Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=161b22&height=65&section=header&text=📡%20CONNECT%20WITH%20ME&fontSize=22&fontColor=00FF7F&animation=fadeIn" width="100%" alt="Connect Header" />
 </p>
 
 <p align="left">
-  <a href="https://github.com/aneeqakazmi137/modern-dev-portfolio.git" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="mailto:kazmianeeqai13@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/aneeqakazmi137/modern-dev-portfolio.git" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="mailto:kazmianeeqai13@gmail.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
 
----
+<br />
+<br />
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATS%20%26%20ACTIVITY-⚔️%20POWER%20LEVEL-FF1493?style=for-the-badge&logoColor=white" alt="Stats Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=161b22&height=65&section=header&text=⚔️%20POWER%20LEVEL%20%26%20METRICS&fontSize=22&fontColor=FF1493&animation=fadeIn" width="100%" alt="Stats Header" />
 </p>
 
 <p align="center">
   <img height="175" src="https://github-readme-stats.vercel.app/api?username=aneeqakazmi137&show_icons=true&theme=tokyonight&title_color=2f81f7&icon_color=2f81f7&hide_border=true&bg_color=00000000&count_private=true" alt="GitHub Stats" />
-  <img height="175" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=aneeqakazmi137&layout=compact&theme=tokyonight&title_color=2f81f7&icon_color=2f81f7&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
+  <img height="175" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=aneeqakazmi137&layout=compact&theme=tokyonight&title_color=2f81f7&icon_color=2f81f7&hide_border=true&bg_color=00000000&langs_count=8" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=aneeqakazmi137&bg_color=00000000&color=2f81f7&line=2f81f7&point=c9d1d9&area=true&hide_border=true&custom_title=Dynamic%20Contribution%20Timeline" alt="activity graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=aneeqakazmi137&bg_color=00000000&color=2f81f7&line=2f81f7&point=c9d1d9&area=true&hide_border=true&custom_title=Dynamic%20Contribution%20Timeline" alt="Activity Graph" />
 </p>
 
----
+<br />
+<br />
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ANIME%20QUOTES-🔥%20WORDS%20OF%20WISDOM-FFD700?style=for-the-badge&logoColor=white" alt="Anime Quotes Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=161b22&height=65&section=header&text=🔥%20WORDS%20OF%20WISDOM&fontSize=22&fontColor=FFD700&animation=fadeIn" width="100%" alt="Anime Quotes Header" />
 </p>
 
-> *"If you don't take risks, you can't create a future."*  
-> — **Monkey D. Luffy** (*One Piece*)
+<!-- Premium Dynamic Anime Quote Box -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=24&pause=4000&color=56D4DD&center=true&vCenter=true&width=800&height=90&lines=%22If+you+don't+take+risks%2C+you+can't+create+a+future.%22+%E2%80%94+Monkey+D.+Luffy;%22A+person+grows+up+when+he's+able+to+overcome+hardships.%22+%E2%80%94+Jiraiya;%22If+you+win%2C+you+live.+If+you+lose%2C+you+die.%22+%E2%80%94+Eren+Yeager;%22Hard+work+is+worthless+for+those+that+don't+believe+in+themselves.%22+%E2%80%94+Naruto+Uzumaki;%22We+choose+to+push+our+limits+every+single+day+because+staying+static+is+the+true+defeat.%22+%E2%80%94+Satoru+Gojo;%22Remember+that+a+sword+held+by+someone+who+is+about+to+die+will+never+be+able+to+protect+anything.%22+%E2%80%94+Kisuke+Urahara" alt="Anime Quotes Carousel" />
+</p>
 
-> *"A person grows up when he's able to overcome hardships. Determination is what matters."*  
-> — **Jiraiya** (*Naruto*)
+<br />
+<br />
 
-> *"If you win, you live. If you lose, you die. If you don't fight, you can't win!"*  
-> — **Eren Yeager** (*Attack on Titan*)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Anime Divider" />
+</p>
 
-> *"Hard work is worthless for those that don't believe in themselves."*  
-> — **Naruto Uzumaki** (*Naruto*)
-
-> *"We choose to push our limits every single day because staying static is the true defeat."*  
-> — **Satoru Gojo** (*Jujutsu Kaisen*)
-
-> *"Remember that a sword held by someone who is about to die will never be able to protect anything."*  
-> — **Kisuke Urahara** (*Bleach*)
-
----
 <p align="center"><i>⭐️ From <a href="https://github.com/aneeqakazmi137">aneeqakazmi137</a></i></p>
