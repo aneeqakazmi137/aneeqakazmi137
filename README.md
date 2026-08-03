@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://github.com/aneeqakazmi137">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=B199DB&fontSize=58&height=150&width=750&text=Hewwo!%20I'm%20Aneeqa" alt="Hewwo! I'm Aneeqa" />
+    <img src="./assets/hero-banner.svg" alt="Hewwo! I'm Aneeqa" width="900" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=30&pause=3000&color=B199DB&center=true&vCenter=true&width=700&height=48&lines=Goal+is+to+awaken+my+Sharingan+in+code...;Learning.+Building.+Breaking.+Repeating." alt="Typing headline" />
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=26&pause=3000&color=B199DB&center=true&vCenter=true&width=750&height=50&lines=Goal+is+to+awaken+my+Sharingan+in+code...;Learning.+Building.+Breaking.+Repeating." alt="Typing headline" />
 </p>
 
 <br>
@@ -14,7 +14,7 @@
 
 <p align="center">
   <b>Software Engineering enthusiast.</b><br>
-  <b>Learning, building, and sharing code that might make someone's life a little easier.</b>
+  <sub>Learning, building, and sharing code that might make someone's life a little easier.</sub>
 </p>
 
 <br><br>
@@ -33,9 +33,9 @@
 
 <p align="center"><b>Frameworks</b></p>
 <p align="center">
+  <img src="https://img.shields.io/badge/React-45538A?style=for-the-badge&logo=react&logoColor=E9CCD3" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-45538A?style=for-the-badge&logo=nextdotjs&logoColor=E9CCD3" alt="Next.js" />
   <img src="https://img.shields.io/badge/Node.js-45538A?style=for-the-badge&logo=nodedotjs&logoColor=E9CCD3" alt="Node.js" />
-  <img src="https://img.shields.io/badge/React-45538A?style=for-the-badge&logo=react&logoColor=E9CCD3" alt="React" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-45538A?style=for-the-badge&logo=tailwindcss&logoColor=E9CCD3" alt="Tailwind CSS" />
 </p>
 
@@ -60,13 +60,16 @@
   <a href="https://github.com/aneeqakazmi137/PakFuel-Crisis-Tracker">
     <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=PakFuel-Crisis-Tracker&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="PakFuel Crisis Tracker" />
   </a>
+  &nbsp;
   <a href="https://github.com/aneeqakazmi137/java-network-chat">
     <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=java-network-chat&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="Java Network Chat" />
+  </a>
 </p>
 <p align="center">
   <a href="https://github.com/aneeqakazmi137/java-pos-mysql">
     <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=java-pos-mysql&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="Java POS MySQL" />
   </a>
+  &nbsp;
   <a href="https://github.com/aneeqakazmi137/modern-dev-portfolio">
     <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=modern-dev-portfolio&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="Modern Dev Portfolio" />
   </a>
@@ -80,12 +83,10 @@
   <img src="./contrib-heatmap.svg" width="900" alt="Contribution heatmap" />
 </p>
 
-<br><br>
-
-<h2 align="center">✦ At a Glance</h2>
-
 <p align="center">
-  <img src="./info-card.svg" width="490" alt="Info card" />
+  <img src="./info-card.svg" width="450" alt="Info card" />
+  &nbsp;
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aneeqakazmi137&theme=tokyonight&background=00000000&border=724972&stroke=724972&ring=B199DB&fire=B199DB&currStreakNum=E9CCD3&sideNums=E9CCD3&currStreakLabel=B199DB&sideLabels=B199DB&dates=724972" width="420" alt="GitHub Streak" />
 </p>
 
 <br><br>
@@ -93,7 +94,11 @@
 <h2 align="center">✦ Mindset</h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=26&pause=4000&color=B199DB&center=true&vCenter=true&width=800&height=90&lines=%22A+person+grows+up+when+he's+able+to+overcome+hardships.%22+%E2%80%94+Jiraiya%2C+Naruto;%22If+you+win%2C+you+live.+If+you+lose%2C+you+die.%22+%E2%80%94+Eren+Yeager%2C+Attack+on+Titan;%22If+you+don't+take+risks%2C+you+can't+create+a+future.%22+%E2%80%94+Monkey+D.+Luffy%2C+One+Piece;%22A+sword+held+by+someone+about+to+die+will+never+protect+anything.%22+%E2%80%94+Kisuke+Urahara%2C+Bleach;%22We+choose+to+push+our+limits+because+staying+static+is+true+defeat.%22+%E2%80%94+Satoru+Gojo%2C+Jujutsu+Kaisen;%22A+real+man+doesn't+need+a+reason+to+help+someone+in+trouble.%22+%E2%80%94+Thorfinn%2C+Vinland+Saga" alt="Mindset quote carousel" />
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=22&pause=10000&color=B199DB&center=true&vCenter=true&width=850&height=80&lines=%22A+person+grows+up+when+he's+able+to+overcome+hardships.%22+%E2%80%94+Jiraiya%2C+Naruto;%22If+you+win%2C+you+live.+If+you+lose%2C+you+die.%22+%E2%80%94+Eren+Yeager%2C+Attack+on+Titan;%22If+you+don't+take+risks%2C+you+can't+create+a+future.%22+%E2%80%94+Monkey+D.+Luffy%2C+One+Piece;%22A+sword+held+by+someone+about+to+die+will+never+protect+anything.%22+%E2%80%94+Kisuke+Urahara%2C+Bleach;%22We+choose+to+push+our+limits+because+staying+static+is+true+defeat.%22+%E2%80%94+Satoru+Gojo%2C+Jujutsu+Kaisen;%22A+real+man+doesn't+need+a+reason+to+help+someone+in+trouble.%22+%E2%80%94+Thorfinn%2C+Vinland+Saga" alt="Mindset quote carousel" />
+</p>
+
+<p align="center">
+  <img src="./assets/ichigo-accent.svg" width="800" alt="Bleach Ichigo Kurosaki Accent" />
 </p>
 
 <br><br>
@@ -102,7 +107,7 @@
 
 <p align="center">
 
-```
+```powershell
 PS C:\Visitors> whoami
 Aneeqa
 
@@ -122,20 +127,20 @@ kazmianeeqai13@gmail.com
   <a href="https://github.com/aneeqakazmi137" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-26264C?style=for-the-badge&logo=github&logoColor=B199DB" alt="GitHub" />
   </a>
+  &nbsp;
   <a href="https://modern-dev-portfolio-five.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-45538A?style=for-the-badge&logo=vercel&logoColor=E9CCD3" alt="Portfolio" />
   </a>
+  &nbsp;
   <a href="mailto:kazmianeeqai13@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-724972?style=for-the-badge&logo=gmail&logoColor=E9CCD3" alt="Email" />
   </a>
 </p>
 
-<br>
-
-<br>
+<br><br>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=aneeqakazmi137&label=Profile%20Views&color=724972&style=flat" alt="Profile views" />
 </p>
 
-<p align="center"><sub><i>From aneeqakazmi137</i></sub></p>
+<p align="center"><sub><i>Cosmic Night Theme · Aneeqa Kazmi</i></sub></p>

@@ -70,7 +70,7 @@ def build_svg():
 
 def main():
     svg = build_svg()
-    with open(OUT_PATH, "w") as f:
+    with open(OUT_PATH, "w", encoding="utf-8") as f:
         f.write(svg)
     print(f"Wrote {OUT_PATH}")
 

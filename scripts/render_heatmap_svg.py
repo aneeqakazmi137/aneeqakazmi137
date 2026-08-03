@@ -124,7 +124,7 @@ def build_svg(payload):
 def main():
     payload = load_data()
     svg = build_svg(payload)
-    with open(OUT_PATH, "w") as f:
+    with open(OUT_PATH, "w", encoding="utf-8") as f:
         f.write(svg)
     print(f"Wrote {OUT_PATH}")
 
