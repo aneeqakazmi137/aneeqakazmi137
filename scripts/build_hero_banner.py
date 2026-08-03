@@ -5,118 +5,149 @@ def generate_hero_banner():
 
     svg = """<svg viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Cosmic Gradients -->
+    <style>
+      @keyframes sparkle {
+        0%, 100% { opacity: 0.25; transform: scale(0.7); }
+        50% { opacity: 1; transform: scale(1.3); }
+      }
+      .star-sparkle {
+        animation: sparkle 3s ease-in-out infinite;
+      }
+      .title-text {
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        font-size: 52px;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+      }
+    </style>
+
+    <!-- Deep Space Galaxy Background Gradients -->
     <linearGradient id="space-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#14142B" />
-      <stop offset="35%" stop-color="#26264C" />
-      <stop offset="70%" stop-color="#3C2A54" />
-      <stop offset="100%" stop-color="#1B1B36" />
+      <stop offset="0%" stop-color="#0C0A1D" />
+      <stop offset="30%" stop-color="#1A1238" />
+      <stop offset="65%" stop-color="#2D114C" />
+      <stop offset="100%" stop-color="#120A24" />
     </linearGradient>
 
-    <radialGradient id="nebula-glow" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#B199DB" stop-opacity="0.45" />
-      <stop offset="40%" stop-color="#724972" stop-opacity="0.25" />
-      <stop offset="80%" stop-color="#45538A" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#26264C" stop-opacity="0" />
+    <!-- Rich Galaxy Nebula Clouds -->
+    <radialGradient id="nebula-purple" cx="25%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.55" />
+      <stop offset="45%" stop-color="#7E22CE" stop-opacity="0.35" />
+      <stop offset="85%" stop-color="#3B0764" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Title Gradient -->
+    <radialGradient id="nebula-pink" cx="75%" cy="65%" r="50%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#9333EA" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#1E1B4B" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="nebula-cyan" cx="50%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.45" />
+      <stop offset="60%" stop-color="#4C1D95" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Sharp Crisp Title Gradient -->
     <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="35%" stop-color="#F2E6ED" />
-      <stop offset="70%" stop-color="#E9CCD3" />
-      <stop offset="100%" stop-color="#C5B1E5" />
-    </linearGradient>
-
-    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#724972" stop-opacity="0.2" />
-      <stop offset="50%" stop-color="#B199DB" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#45538A" stop-opacity="0.2" />
+      <stop offset="40%" stop-color="#F5E6FF" />
+      <stop offset="75%" stop-color="#E9CCD3" />
+      <stop offset="100%" stop-color="#D8B4F8" />
     </linearGradient>
 
     <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#B199DB" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#724972" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#45538A" stop-opacity="0.7" />
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#724972" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.8" />
     </linearGradient>
-
-    <!-- Glow Filters -->
-    <filter id="text-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
-    <filter id="star-glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="1.5" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
 
     <clipPath id="card-clip">
       <rect x="2" y="2" width="896" height="236" rx="18" />
     </clipPath>
   </defs>
 
-  <!-- Outer Card Frame -->
+  <!-- Outer Galaxy Frame -->
   <rect x="1" y="1" width="898" height="238" rx="19" fill="url(#space-bg)" stroke="url(#border-grad)" stroke-width="2" />
 
   <g clip-path="url(#card-clip)">
-    <!-- Nebula Ambient Light Clouds -->
-    <circle cx="200" cy="80" r="180" fill="url(#nebula-glow)" />
-    <circle cx="700" cy="160" r="220" fill="url(#nebula-glow)" />
+    <!-- Galaxy Nebula Gas Layers -->
+    <rect x="0" y="0" width="900" height="240" fill="url(#nebula-purple)" />
+    <rect x="0" y="0" width="900" height="240" fill="url(#nebula-pink)" />
+    <rect x="0" y="0" width="900" height="240" fill="url(#nebula-cyan)" />
 
-    <!-- Organic Cosmic Dust Waves -->
-    <path d="M -50 180 Q 250 80 500 160 T 950 100" fill="none" stroke="#724972" stroke-width="1.5" opacity="0.3" />
-    <path d="M -50 120 Q 200 220 550 90 T 950 200" fill="none" stroke="#B199DB" stroke-width="1" opacity="0.25" />
+    <!-- Cosmic Dust Swirls -->
+    <path d="M -50 160 Q 220 40 500 150 T 950 80" fill="none" stroke="#C084FC" stroke-width="1.2" opacity="0.35" />
+    <path d="M -50 100 Q 280 230 580 80 T 950 190" fill="none" stroke="#F472B6" stroke-width="1" opacity="0.3" />
+    <path d="M -20 200 Q 400 110 700 220 T 980 140" fill="none" stroke="#818CF8" stroke-width="1.5" opacity="0.25" />
 
-    <!-- Ambient Glowing Stars & Constellations -->
-    <g filter="url(#star-glow)">
-      <!-- Bright Stars -->
-      <path d="M 120 45 L 122 50 L 127 52 L 122 54 L 120 59 L 118 54 L 113 52 L 118 50 Z" fill="#FFFFFF" opacity="0.9" />
-      <path d="M 780 55 L 782 60 L 787 62 L 782 64 L 780 69 L 778 64 L 773 62 L 778 60 Z" fill="#E9CCD3" opacity="0.85" />
-      <path d="M 830 170 L 831.5 174 L 835.5 175.5 L 831.5 177 L 830 181 L 828.5 177 L 824.5 175.5 L 828.5 174 Z" fill="#B199DB" opacity="0.9" />
-      <path d="M 90 180 L 91.5 184 L 95.5 185.5 L 91.5 187 L 90 191 L 88.5 187 L 84.5 185.5 L 88.5 184 Z" fill="#FFFFFF" opacity="0.8" />
-      
-      <!-- Small Star Dots -->
-      <circle cx="240" cy="40" r="1.5" fill="#E9CCD3" opacity="0.8" />
-      <circle cx="360" cy="195" r="2" fill="#B199DB" opacity="0.7" />
-      <circle cx="620" cy="35" r="1.5" fill="#FFFFFF" opacity="0.9" />
-      <circle cx="680" cy="205" r="2" fill="#E9CCD3" opacity="0.75" />
-      <circle cx="480" cy="25" r="1.8" fill="#B199DB" opacity="0.8" />
-      <circle cx="50" cy="110" r="1.2" fill="#FFFFFF" opacity="0.6" />
-      <circle cx="860" cy="110" r="1.5" fill="#B199DB" opacity="0.7" />
+    <!-- Lively Sparkling & Sprinkled Stars -->
+    <!-- Large 4-Point Diamond Sparkle Stars -->
+    <g class="star-sparkle" style="animation-delay: 0s; transform-box: fill-box; transform-origin: center;">
+      <path d="M 110 40 L 113 47 L 120 50 L 113 53 L 110 60 L 107 53 L 100 50 L 107 47 Z" fill="#FFFFFF" />
     </g>
+    <g class="star-sparkle" style="animation-delay: 1.2s; transform-box: fill-box; transform-origin: center;">
+      <path d="M 790 50 L 793 57 L 800 60 L 793 63 L 790 70 L 787 63 L 780 60 L 787 57 Z" fill="#F472B6" />
+    </g>
+    <g class="star-sparkle" style="animation-delay: 0.6s; transform-box: fill-box; transform-origin: center;">
+      <path d="M 840 167 L 842.5 172.5 L 848 175 L 842.5 177.5 L 840 183 L 837.5 177.5 L 832 175 L 837.5 172.5 Z" fill="#E0B0FF" />
+    </g>
+    <g class="star-sparkle" style="animation-delay: 1.8s; transform-box: fill-box; transform-origin: center;">
+      <path d="M 85 177 L 87.5 182.5 L 93 185 L 87.5 187.5 L 85 193 L 82.5 187.5 L 77 185 L 82.5 182.5 Z" fill="#FFFFFF" />
+    </g>
+    <g class="star-sparkle" style="animation-delay: 2.2s; transform-box: fill-box; transform-origin: center;">
+      <path d="M 450 23 L 452 28 L 457 30 L 452 32 L 450 37 L 448 32 L 443 30 L 448 28 Z" fill="#C084FC" />
+    </g>
+    <g class="star-sparkle" style="animation-delay: 1.5s; transform-box: fill-box; transform-origin: center;">
+      <path d="M 660 183 L 662 188 L 667 190 L 662 192 L 660 197 L 658 192 L 653 190 L 658 188 Z" fill="#F472B6" />
+    </g>
+    <g class="star-sparkle" style="animation-delay: 0.9s; transform-box: fill-box; transform-origin: center;">
+      <path d="M 220 188 L 222 193 L 227 195 L 222 197 L 220 202 L 218 197 L 213 195 L 218 193 Z" fill="#FFFFFF" />
+    </g>
+
+    <!-- Sprinkled Stardust Dots (Pulsing) -->
+    <circle cx="160" cy="35" r="2" fill="#FFFFFF" class="star-sparkle" style="animation-delay: 0.3s; transform-box: fill-box; transform-origin: center;" />
+    <circle cx="280" cy="45" r="1.8" fill="#F472B6" class="star-sparkle" style="animation-delay: 1.7s; transform-box: fill-box; transform-origin: center;" />
+    <circle cx="370" cy="200" r="2.2" fill="#C084FC" class="star-sparkle" style="animation-delay: 0.8s; transform-box: fill-box; transform-origin: center;" />
+    <circle cx="530" cy="25" r="1.6" fill="#FFFFFF" class="star-sparkle" style="animation-delay: 2.1s; transform-box: fill-box; transform-origin: center;" />
+    <circle cx="610" cy="40" r="2" fill="#818CF8" class="star-sparkle" style="animation-delay: 0.4s; transform-box: fill-box; transform-origin: center;" />
+    <circle cx="730" cy="35" r="1.5" fill="#E9CCD3" class="star-sparkle" style="animation-delay: 1.3s; transform-box: fill-box; transform-origin: center;" />
+    <circle cx="760" cy="200" r="2" fill="#FFFFFF" class="star-sparkle" style="animation-delay: 2.5s; transform-box: fill-box; transform-origin: center;" />
+    <circle cx="45" cy="115" r="1.8" fill="#C084FC" class="star-sparkle" style="animation-delay: 1.1s; transform-box: fill-box; transform-origin: center;" />
+    <circle cx="875" cy="120" r="2" fill="#F472B6" class="star-sparkle" style="animation-delay: 0.7s; transform-box: fill-box; transform-origin: center;" />
+    <circle cx="310" cy="170" r="1.4" fill="#FFFFFF" class="star-sparkle" style="animation-delay: 2.4s; transform-box: fill-box; transform-origin: center;" />
+    <circle cx="590" cy="180" r="1.6" fill="#E0B0FF" class="star-sparkle" style="animation-delay: 1.6s; transform-box: fill-box; transform-origin: center;" />
 
     <!-- Top Badge Header -->
     <g transform="translate(450, 56)">
-      <rect x="-140" y="-14" width="280" height="26" rx="13" fill="#26264C" stroke="#724972" stroke-width="1" opacity="0.8" />
-      <text text-anchor="middle" y="3" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11" font-weight="700" fill="#E9CCD3" letter-spacing="2.5">
+      <rect x="-140" y="-14" width="280" height="26" rx="13" fill="#1A1238" stroke="#C084FC" stroke-width="1.2" opacity="0.85" />
+      <text text-anchor="middle" y="3" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11" font-weight="700" fill="#F472B6" letter-spacing="2.5">
         ✦ SOFTWARE ENGINEER ✦
       </text>
     </g>
 
-    <!-- Main Title: Hewwo! I'm Aneeqa -->
-    <g transform="translate(450, 142)">
-      <text text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif" font-size="52" font-weight="800" fill="url(#title-grad)" letter-spacing="-0.5" filter="url(#text-glow)">
+    <!-- Main Title: Hewwo! I'm Aneeqa (CRISP & SHARP - NO BLUR) -->
+    <g transform="translate(450, 140)">
+      <!-- Subtle crisp background drop shadow text -->
+      <text text-anchor="middle" class="title-text" fill="#120A24" y="2" opacity="0.6">
+        Hewwo! I'm Aneeqa
+      </text>
+      <!-- Razor sharp foreground text -->
+      <text text-anchor="middle" class="title-text" fill="url(#title-grad)">
         Hewwo! I'm Aneeqa
       </text>
     </g>
 
     <!-- Bottom Decorative Accent -->
     <g transform="translate(450, 178)">
-      <line x1="-120" y1="0" x2="120" y2="0" stroke="url(#accent-grad)" stroke-width="2" stroke-linecap="round" />
-      <polygon points="0,-4 5,0 0,4 -5,0" fill="#B199DB" />
+      <line x1="-130" y1="0" x2="130" y2="0" stroke="url(#border-grad)" stroke-width="2" stroke-linecap="round" />
+      <polygon points="0,-4 5,0 0,4 -5,0" fill="#C084FC" />
     </g>
 
-    <!-- Subtitle Quote -->
+    <!-- Subtitle Text -->
     <g transform="translate(450, 206)">
-      <text text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="13" font-weight="500" fill="#B199DB" letter-spacing="1" opacity="0.9">
+      <text text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="13" font-weight="500" fill="#E9CCD3" letter-spacing="1" opacity="0.95">
         Building software with curiosity, precision &amp; elegance
       </text>
     </g>
