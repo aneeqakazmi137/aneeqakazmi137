@@ -24,23 +24,25 @@
 <p align="center"><b>Languages</b></p>
 <p align="center">
   <img src="https://img.shields.io/badge/C++-724972?style=for-the-badge&logo=cplusplus&logoColor=E9CCD3" alt="C++" />
+  <img src="https://img.shields.io/badge/Java-724972?style=for-the-badge&logo=openjdk&logoColor=E9CCD3" alt="Java" />
   <img src="https://img.shields.io/badge/Python-724972?style=for-the-badge&logo=python&logoColor=E9CCD3" alt="Python" />
   <img src="https://img.shields.io/badge/TypeScript-724972?style=for-the-badge&logo=typescript&logoColor=E9CCD3" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-724972?style=for-the-badge&logo=javascript&logoColor=E9CCD3" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/PHP-724972?style=for-the-badge&logo=php&logoColor=E9CCD3" alt="PHP" />
-  <img src="https://img.shields.io/badge/Prolog-724972?style=for-the-badge&logo=prolog&logoColor=E9CCD3" alt="Prolog" />
+  <img src="https://img.shields.io/badge/CSS3-724972?style=for-the-badge&logo=css3&logoColor=E9CCD3" alt="CSS" />
 </p>
 
 <p align="center"><b>Frameworks</b></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Next.js-45538A?style=for-the-badge&logo=nextdotjs&logoColor=E9CCD3" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-45538A?style=for-the-badge&logo=nodedotjs&logoColor=E9CCD3" alt="Node.js" />
+  <img src="https://img.shields.io/badge/React-45538A?style=for-the-badge&logo=react&logoColor=E9CCD3" alt="React" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-45538A?style=for-the-badge&logo=tailwindcss&logoColor=E9CCD3" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Framer_Motion-45538A?style=for-the-badge&logo=framer&logoColor=E9CCD3" alt="Framer Motion" />
 </p>
 
 <p align="center"><b>Databases</b></p>
 <p align="center">
   <img src="https://img.shields.io/badge/MySQL-26264C?style=for-the-badge&logo=mysql&logoColor=B199DB" alt="MySQL" />
+  <img src="https://img.shields.io/badge/MongoDB-26264C?style=for-the-badge&logo=mongodb&logoColor=B199DB" alt="MongoDB" />
 </p>
 
 <p align="center"><b>Tools</b></p>
