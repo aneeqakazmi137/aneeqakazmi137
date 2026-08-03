@@ -3,210 +3,29 @@ import os
 def generate_hero_banner():
     out_path = os.path.join(os.path.dirname(__file__), "..", "assets", "hero-banner.svg")
 
-    svg = """<svg viewBox="0 0 900 250" xmlns="http://www.w3.org/2000/svg">
+    svg = """<svg viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700;900&amp;family=Plus+Jakarta+Sans:wght@700;800&amp;display=swap');
-      
-      @keyframes twinkle-fast {
-        0%, 100% { opacity: 0.15; transform: scale(0.6); }
-        50% { opacity: 1; transform: scale(1.4); }
-      }
-      @keyframes twinkle-slow {
-        0%, 100% { opacity: 0.2; transform: scale(0.8); }
-        50% { opacity: 0.9; transform: scale(1.5); }
-      }
-      @keyframes pulse-nebula {
-        0%, 100% { opacity: 0.45; }
-        50% { opacity: 0.7; }
-      }
-      .star-fast {
-        animation: twinkle-fast 2.2s ease-in-out infinite;
-        transform-box: fill-box;
-        transform-origin: center;
-      }
-      .star-slow {
-        animation: twinkle-slow 3.8s ease-in-out infinite;
-        transform-box: fill-box;
-        transform-origin: center;
-      }
-      .nebula-layer {
-        animation: pulse-nebula 6s ease-in-out infinite;
-      }
-      .stylish-title {
-        font-family: 'Outfit', 'Plus Jakarta Sans', 'Trebuchet MS', 'Segoe UI', sans-serif;
-        font-size: 54px;
-        font-weight: 900;
+      .title-text {
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+        font-size: 58px;
+        font-weight: 800;
+        fill: #B199DB;
         letter-spacing: -0.5px;
       }
-      .badge-text {
-        font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
-        font-size: 11px;
-        font-weight: 800;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-      }
     </style>
-
-    <!-- Deep Space Void Base -->
-    <linearGradient id="space-void" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05030B" />
-      <stop offset="35%" stop-color="#0E0822" />
-      <stop offset="70%" stop-color="#1A0C36" />
-      <stop offset="100%" stop-color="#080414" />
-    </linearGradient>
-
-    <!-- Realistic Galaxy Nebula Radial Clouds -->
-    <radialGradient id="galaxy-core" cx="50%" cy="45%" r="65%">
-      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.45" />
-      <stop offset="35%" stop-color="#9333EA" stop-opacity="0.3" />
-      <stop offset="70%" stop-color="#4C1D95" stop-opacity="0.15" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </radialGradient>
-
-    <radialGradient id="nebula-magenta" cx="20%" cy="30%" r="50%">
-      <stop offset="0%" stop-color="#F472B6" stop-opacity="0.5" />
-      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </radialGradient>
-
-    <radialGradient id="nebula-cyan" cx="80%" cy="65%" r="55%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4" />
-      <stop offset="45%" stop-color="#6366F1" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </radialGradient>
-
-    <!-- Premium Stylish Title Gradient -->
-    <linearGradient id="title-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="30%" stop-color="#F5D0FE" />
-      <stop offset="65%" stop-color="#E879F9" />
-      <stop offset="85%" stop-color="#C084FC" />
-      <stop offset="100%" stop-color="#818CF8" />
-    </linearGradient>
-
-    <!-- Glassmorphic Badge Border Gradient -->
-    <linearGradient id="badge-border" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F472B6" />
-      <stop offset="50%" stop-color="#C084FC" />
-      <stop offset="100%" stop-color="#38BDF8" />
-    </linearGradient>
-
-    <linearGradient id="divider-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F472B6" stop-opacity="0" />
-      <stop offset="30%" stop-color="#C084FC" stop-opacity="0.8" />
-      <stop offset="70%" stop-color="#38BDF8" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#818CF8" stop-opacity="0" />
-    </linearGradient>
-
-    <clipPath id="banner-clip">
-      <rect x="2" y="2" width="896" height="246" rx="20" />
-    </clipPath>
   </defs>
 
-  <!-- Outer Frame -->
-  <rect x="1" y="1" width="898" height="248" rx="21" fill="url(#space-void)" stroke="url(#badge-border)" stroke-width="1.8" />
-
-  <g clip-path="url(#banner-clip)">
-    <!-- Realistic Galaxy Gas Layers -->
-    <rect x="0" y="0" width="900" height="250" fill="url(#galaxy-core)" class="nebula-layer" />
-    <rect x="0" y="0" width="900" height="250" fill="url(#nebula-magenta)" />
-    <rect x="0" y="0" width="900" height="250" fill="url(#nebula-cyan)" />
-
-    <!-- Cosmic Dust Spiral Arms -->
-    <path d="M -80 180 Q 200 30 520 160 T 980 60" fill="none" stroke="#E879F9" stroke-width="1" opacity="0.3" />
-    <path d="M -50 90 Q 250 240 600 70 T 980 200" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity="0.25" />
-    <path d="M -30 220 Q 420 120 720 230 T 990 120" fill="none" stroke="#C084FC" stroke-width="1.5" opacity="0.2" />
-
-    <!-- 4D Sprinkled Tiny Stardust Field (Multi-Layer Depth) -->
-    <!-- Tiny Stardust Dots (r <= 1.2px) -->
-    <circle cx="45" cy="35" r="0.8" fill="#FFFFFF" class="star-fast" style="animation-delay: 0.1s;" />
-    <circle cx="95" cy="85" r="1.1" fill="#F472B6" class="star-slow" style="animation-delay: 1.4s;" />
-    <circle cx="140" cy="25" r="0.9" fill="#C084FC" class="star-fast" style="animation-delay: 0.7s;" />
-    <circle cx="185" cy="195" r="1.2" fill="#FFFFFF" class="star-slow" style="animation-delay: 2.1s;" />
-    <circle cx="230" cy="40" r="0.8" fill="#38BDF8" class="star-fast" style="animation-delay: 1.8s;" />
-    <circle cx="275" cy="210" r="1.0" fill="#E879F9" class="star-slow" style="animation-delay: 0.3s;" />
-    <circle cx="320" cy="30" r="1.2" fill="#FFFFFF" class="star-fast" style="animation-delay: 2.5s;" />
-    <circle cx="365" cy="180" r="0.7" fill="#F472B6" class="star-slow" style="animation-delay: 1.1s;" />
-    <circle cx="410" cy="20" r="1.1" fill="#C084FC" class="star-fast" style="animation-delay: 0.5s;" />
-    <circle cx="460" cy="225" r="0.9" fill="#FFFFFF" class="star-slow" style="animation-delay: 1.9s;" />
-    <circle cx="510" cy="35" r="1.2" fill="#38BDF8" class="star-fast" style="animation-delay: 2.3s;" />
-    <circle cx="555" cy="215" r="0.8" fill="#E879F9" class="star-slow" style="animation-delay: 0.9s;" />
-    <circle cx="600" cy="25" r="1.0" fill="#FFFFFF" class="star-fast" style="animation-delay: 1.6s;" />
-    <circle cx="645" cy="190" r="1.2" fill="#F472B6" class="star-slow" style="animation-delay: 0.2s;" />
-    <circle cx="690" cy="45" r="0.9" fill="#C084FC" class="star-fast" style="animation-delay: 2.7s;" />
-    <circle cx="735" cy="220" r="1.1" fill="#38BDF8" class="star-slow" style="animation-delay: 1.3s;" />
-    <circle cx="780" cy="30" r="0.8" fill="#FFFFFF" class="star-fast" style="animation-delay: 0.4s;" />
-    <circle cx="825" cy="185" r="1.2" fill="#E879F9" class="star-slow" style="animation-delay: 2.0s;" />
-    <circle cx="865" cy="40" r="0.9" fill="#FFFFFF" class="star-fast" style="animation-delay: 1.0s;" />
-
-    <!-- Additional Scattered 4D Stardust Sparks -->
-    <circle cx="70" cy="160" r="1.0" fill="#E879F9" class="star-fast" style="animation-delay: 1.7s;" />
-    <circle cx="120" cy="140" r="0.7" fill="#38BDF8" class="star-slow" style="animation-delay: 0.8s;" />
-    <circle cx="260" cy="130" r="1.1" fill="#FFFFFF" class="star-fast" style="animation-delay: 2.2s;" />
-    <circle cx="620" cy="135" r="0.8" fill="#F472B6" class="star-slow" style="animation-delay: 1.5s;" />
-    <circle cx="750" cy="145" r="1.2" fill="#C084FC" class="star-fast" style="animation-delay: 0.6s;" />
-    <circle cx="840" cy="115" r="0.9" fill="#FFFFFF" class="star-slow" style="animation-delay: 2.4s;" />
-
-    <!-- Delicate 4-Point Diamond Stars (Small & Subtle) -->
-    <g class="star-fast" style="animation-delay: 0s; transform-box: fill-box; transform-origin: center;">
-      <path d="M 130 55 L 131.5 59.5 L 136 61 L 131.5 62.5 L 130 67 L 128.5 62.5 L 124 61 L 128.5 59.5 Z" fill="#FFFFFF" opacity="0.9" />
-    </g>
-    <g class="star-slow" style="animation-delay: 1.5s; transform-box: fill-box; transform-origin: center;">
-      <path d="M 770 65 L 771.5 69.5 L 776 71 L 771.5 72.5 L 770 77 L 768.5 72.5 L 764 71 L 768.5 69.5 Z" fill="#F472B6" opacity="0.85" />
-    </g>
-    <g class="star-fast" style="animation-delay: 0.8s; transform-box: fill-box; transform-origin: center;">
-      <path d="M 830 160 L 831.5 164 L 836 165.5 L 831.5 167 L 830 171 L 828.5 167 L 824 165.5 L 828.5 164 Z" fill="#38BDF8" opacity="0.9" />
-    </g>
-    <g class="star-slow" style="animation-delay: 2.0s; transform-box: fill-box; transform-origin: center;">
-      <path d="M 80 175 L 81.5 179 L 86 180.5 L 81.5 182 L 80 186 L 78.5 182 L 74 180.5 L 78.5 179 Z" fill="#E879F9" opacity="0.85" />
-    </g>
-
-    <!-- NEW SLEEK GLASSMORPHIC BADGE -->
-    <g transform="translate(450, 52)">
-      <!-- Outer Glow Shadow -->
-      <rect x="-142" y="-15" width="284" height="30" rx="15" fill="#05030B" opacity="0.6" />
-      <!-- Glass Card Background -->
-      <rect x="-140" y="-14" width="280" height="28" rx="14" fill="#120A29" fill-opacity="0.85" stroke="url(#badge-border)" stroke-width="1.4" />
-      <!-- Glowing Side Diamonds -->
-      <polygon points="-120,0 -116,-4 -112,0 -116,4" fill="#F472B6" />
-      <polygon points="120,0 116,-4 112,0 116,4" fill="#38BDF8" />
-      <!-- Badge Text -->
-      <text text-anchor="middle" y="4" class="badge-text" fill="url(#title-gradient)">
-        SOFTWARE ENGINEER
-      </text>
-    </g>
-
-    <!-- MAIN TITLE: STYLISH OUTSTANDING TYPOGRAPHY (RAZOR SHARP) -->
-    <g transform="translate(450, 142)">
-      <!-- Sharp Crisp Background Contrast Drop Shadow -->
-      <text text-anchor="middle" class="stylish-title" fill="#05030B" y="3" opacity="0.8">
-        Hewwo! I'm Aneeqa
-      </text>
-      <!-- Main Glowing Vibrant Gradient Foreground Text -->
-      <text text-anchor="middle" class="stylish-title" fill="url(#title-gradient)">
-        Hewwo! I'm Aneeqa
-      </text>
-    </g>
-
-    <!-- Elegant Bottom Divider Accent -->
-    <g transform="translate(450, 182)">
-      <line x1="-150" y1="0" x2="150" y2="0" stroke="url(#divider-grad)" stroke-width="2" stroke-linecap="round" />
-      <polygon points="0,-5 5,0 0,5 -5,0" fill="#E879F9" />
-    </g>
-
-    <!-- Subtitle Text -->
-    <g transform="translate(450, 214)">
-      <text text-anchor="middle" font-family="'Plus Jakarta Sans', 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#E879F9" letter-spacing="1.2" opacity="0.95">
-        Building software with curiosity, precision &amp; elegance
-      </text>
-    </g>
+  <g transform="translate(400, 80)">
+    <text text-anchor="middle" class="title-text">
+      Hewwo! I'm Aneeqa
+    </text>
   </g>
 </svg>
 """
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(svg)
-    print(f"Successfully updated {out_path}")
+    print(f"Successfully wrote {out_path}")
 
 if __name__ == "__main__":
     generate_hero_banner()

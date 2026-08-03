@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://github.com/aneeqakazmi137">
-    <img src="./assets/hero-banner.svg" alt="Hewwo! I'm Aneeqa" width="900" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=B199DB&fontSize=58&height=150&width=750&text=Hewwo!%20I'm%20Aneeqa" alt="Hewwo! I'm Aneeqa" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=26&pause=3000&color=B199DB&center=true&vCenter=true&width=750&height=50&lines=Goal+is+to+awaken+my+Sharingan+in+code...;Learning.+Building.+Breaking.+Repeating." alt="Typing headline" />
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=30&pause=3000&color=38BDF8&center=true&vCenter=true&width=700&height=48&lines=Goal+is+to+awaken+my+Sharingan+in+code...;Learning.+Building.+Breaking.+Repeating." alt="Typing headline" />
 </p>
 
 <br>
