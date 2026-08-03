@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=30&pause=3000&color=38BDF8&center=true&vCenter=true&width=700&height=48&lines=Goal+is+to+awaken+my+Sharingan+in+code...;Learning.+Building.+Breaking.+Repeating." alt="Typing headline" />
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=30&pause=3000&color=B199DB&center=true&vCenter=true&width=700&height=48&lines=Goal+is+to+awaken+my+Sharingan+in+code...;Learning.+Building.+Breaking.+Repeating." alt="Typing headline" />
 </p>
 
 <br>
