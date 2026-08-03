@@ -10,11 +10,10 @@
 
 <br>
 
-<h2 align="center">✦ About Me</h2>
+<br><br>
 
 <p align="center">
-  <b>Software Engineering enthusiast.</b><br>
-  <sub>Learning, building, and sharing code that might make someone's life a little easier.</sub>
+  <img src="./assets/about-card.svg" width="850" alt="About Me" />
 </p>
 
 <br><br>
