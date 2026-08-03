@@ -77,7 +77,7 @@
 <h2 align="center">✦ GitHub Activity</h2>
 
 <p align="center">
-  <img src="./contrib-heatmap.svg" width="700" alt="Contribution heatmap" />
+  <img src="./contrib-heatmap.svg" width="900" alt="Contribution heatmap" />
 </p>
 
 <br><br>
