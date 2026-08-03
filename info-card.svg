@@ -1,4 +1,4 @@
-<svg viewBox="0 0 490 232" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code', 'Consolas', monospace">
+<svg viewBox="0 0 490 202" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code', 'Consolas', monospace">
   <style>
     .row {
       opacity: 0;
@@ -13,7 +13,7 @@
     .bar-text { fill: #E9CCD3; font-size: 13px; font-weight: 700; }
   </style>
 
-  <rect x="1" y="1" width="488" height="230" rx="10"
+  <rect x="1" y="1" width="488" height="200" rx="10"
         fill="#26264C" stroke="#724972" stroke-width="1.5"/>
 
   <rect x="1" y="1" width="488" height="34" rx="10" fill="#45538A"/>
@@ -26,7 +26,7 @@
   
     <g class="row" style="animation-delay:0.50s">
       <text x="34" y="58" class="key-text">Now</text>
-      <text x="150" y="58" class="val-text">BSCS @ COMSATS Wah Campus</text>
+      <text x="150" y="58" class="val-text">BSCS @ COMSATS</text>
     </g>
     <g class="row" style="animation-delay:0.72s">
       <text x="34" y="88" class="key-text">Stack</text>
@@ -34,14 +34,10 @@
     </g>
     <g class="row" style="animation-delay:0.94s">
       <text x="34" y="118" class="key-text">Tools</text>
-      <text x="150" y="118" class="val-text">Tailwind · MySQL · Prolog · Git</text>
+      <text x="150" y="118" class="val-text">Tailwind · MySQL · Git</text>
     </g>
     <g class="row" style="animation-delay:1.16s">
-      <text x="34" y="148" class="key-text">Building</text>
-      <text x="150" y="148" class="val-text">PakFuel Crisis Tracker</text>
-    </g>
-    <g class="row" style="animation-delay:1.38s">
-      <text x="34" y="178" class="key-text">Mindset</text>
-      <text x="150" y="178" class="val-text">Learning. Building. Repeating.</text>
+      <text x="34" y="148" class="key-text">Mindset</text>
+      <text x="150" y="148" class="val-text">Learning. Building. Repeating.</text>
     </g>
 </svg>
