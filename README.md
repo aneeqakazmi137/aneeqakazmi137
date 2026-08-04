@@ -20,16 +20,16 @@
 <!-- ================= ABOUT ================= -->
 <h2 align="center">✦ About Me</h2>
 
-<table align="center" border="0">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
 <tr>
-<td width="25%" align="center" valign="middle">
-  <img src="./assets/aneeqa-art.png" width="100%" style="border-radius: 12px; border: 1px solid #45538A;" />
+<td align="center" valign="middle" bgcolor="#1B1640" width="30%" style="border-radius: 14px;">
+  <img src="./assets/aneeqa-cosmic-card.png" width="100%" style="border-radius: 14px;" />
 </td>
-<td width="75%" valign="middle">
+<td align="center" valign="middle" bgcolor="#1B1640" width="70%" style="border-radius: 14px;">
 
 <p align="center">
-  <font size="4" color="#FFFFFF"><b>Software Engineering enthusiast.</b></font><br>
-  <font size="3" color="#E9CCD3">Learning, building, and sharing code that might make someone's life a little easier.</font>
+  <font size="4" color="#E9CCD3"><b>Software Engineering enthusiast.</b></font><br>
+  <font size="3" color="#B199DB">Learning, building, and sharing code that might make someone's life a little easier.</font>
 </p>
 
 </td>
