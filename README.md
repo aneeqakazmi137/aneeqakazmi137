@@ -167,7 +167,7 @@ kazmianeeqai13@gmail.com
 <br>
 
 <p align="center">
-  <img src="./assets/cya-cosmic-card.png" width="320" alt="CYA!" />
+  <img src="./assets/cya-cosmic-card.png" width="170" alt="CYA!" />
 </p>
 
 <div align="center">
