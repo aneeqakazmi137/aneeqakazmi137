@@ -28,8 +28,8 @@
 <td align="center" valign="middle" bgcolor="#1B1640" width="70%" style="border-radius: 14px;">
 
 <p align="center">
-  <font size="4" color="#E9CCD3"><b>Software Engineering enthusiast.</b></font><br>
-  <font size="3" color="#B199DB">Learning, building, and sharing code that might make someone's life a little easier.</font>
+  <font size="6" color="#B199DB"><b>Software Engineering enthusiast.</b></font><br><br>
+  <font size="5" color="#E9CCD3">Learning, building, and sharing code that might make someone's life a little easier.</font>
 </p>
 
 </td>
@@ -164,16 +164,10 @@ kazmianeeqai13@gmail.com
   </a>
 </p>
 
-<br><br>
-
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=aneeqakazmi137.aneeqakazmi137&left_color=26264C&right_color=724972&left_text=Profile%20Views" alt="Profile Views" />
-</p>
-
 <br>
 
 <p align="center">
-  <img src="./assets/cya-footer.svg" width="300" alt="CYA!" />
+  <img src="./assets/cya-cosmic-card.png" width="320" alt="CYA!" />
 </p>
 
 <div align="center">
