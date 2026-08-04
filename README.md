@@ -1,123 +1,142 @@
+<!-- ================= HEADER ================= -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0B0B2E,35:26264C,65:45538A,100:B199DB&height=260&section=header&text=ANEEQA%20KAZMI&fontSize=56&fontColor=E9CCD3&fontAlignY=38&animation=fadeIn&desc=Charting%20code%20across%20the%20quiet%20dark&descAlignY=58&descSize=18&descColor=B199DB" width="100%"/>
+
+</div>
+
 <p align="center">
-  <a href="https://github.com/aneeqakazmi137">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=B199DB&fontSize=58&height=150&width=750&text=Hewwo!%20I'm%20Aneeqa" alt="Hewwo! I'm Aneeqa" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=500&size=22&pause=2500&color=B199DB&center=true&vCenter=true&width=650&height=40&lines=some+stars+take+light+years+to+reach+you...;this+repo+is+one+of+mine.;software+engineer+%7C+builder+%7C+quiet+observer" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=30&pause=3000&color=B199DB&center=true&vCenter=true&width=700&height=48&lines=Goal+is+to+awaken+my+Sharingan+in+code...;Learning.+Building.+Breaking.+Repeating." alt="Typing headline" />
+  <img src="https://img.shields.io/badge/status-in__orbit-724972?style=flat-square&labelColor=0B0B2E" />
+  <img src="https://img.shields.io/badge/based__in-COMSATS-45538A?style=flat-square&labelColor=0B0B2E" />
+  <img src="https://img.shields.io/badge/currently-building-B199DB?style=flat-square&labelColor=0B0B2E" />
 </p>
 
 <br>
 
-<h2 align="center">✦ About Me</h2>
+<!-- ================= ABOUT ================= -->
+<h3 align="center">✧ transmission log</h3>
 
-<p align="center">
-  <font size="4" color="#FFFFFF"><b>Software Engineering enthusiast.</b></font><br>
-  <font size="3" color="#E9CCD3">Learning, building, and sharing code that might make someone's life a little easier.</font>
-</p>
+<table align="center" border="0">
+<tr>
+<td width="100%">
 
-<br><br>
+> I write code the way most people write letters they never send — carefully, and mostly for myself. BSCS student, still deciding which corner of software I want to live in. Somewhere between systems that quietly work and interfaces people don't have to think about.
 
-<h2 align="center">✦ Tech Stack</h2>
+</td>
+</tr>
+</table>
 
-<p align="center"><b>Languages</b></p>
-<p align="center">
-  <img src="https://img.shields.io/badge/C++-724972?style=for-the-badge&logo=cplusplus&logoColor=E9CCD3" alt="C++" />
-  <img src="https://img.shields.io/badge/Java-724972?style=for-the-badge&logo=openjdk&logoColor=E9CCD3" alt="Java" />
-  <img src="https://img.shields.io/badge/Python-724972?style=for-the-badge&logo=python&logoColor=E9CCD3" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-724972?style=for-the-badge&logo=typescript&logoColor=E9CCD3" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-724972?style=for-the-badge&logo=javascript&logoColor=E9CCD3" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/CSS3-724972?style=for-the-badge&logo=css3&logoColor=E9CCD3" alt="CSS" />
-</p>
+<br>
 
-<p align="center"><b>Frameworks</b></p>
-<p align="center">
-  <img src="https://img.shields.io/badge/React-45538A?style=for-the-badge&logo=react&logoColor=E9CCD3" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-45538A?style=for-the-badge&logo=nextdotjs&logoColor=E9CCD3" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Node.js-45538A?style=for-the-badge&logo=nodedotjs&logoColor=E9CCD3" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-45538A?style=for-the-badge&logo=tailwindcss&logoColor=E9CCD3" alt="Tailwind CSS" />
-</p>
+<!-- ================= STACK ================= -->
+<h3 align="center">✧ instruments on board</h3>
 
-<p align="center"><b>Databases</b></p>
-<p align="center">
-  <img src="https://img.shields.io/badge/MySQL-26264C?style=for-the-badge&logo=mysql&logoColor=B199DB" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-26264C?style=for-the-badge&logo=mongodb&logoColor=B199DB" alt="MongoDB" />
-</p>
+<table align="center" border="0" cellpadding="10">
+<tr>
+<td valign="top" width="33%">
 
-<p align="center"><b>Tools</b></p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Git-26264C?style=for-the-badge&logo=git&logoColor=B199DB" alt="Git" />
-  <img src="https://img.shields.io/badge/VS_Code-26264C?style=for-the-badge&logo=visualstudiocode&logoColor=B199DB" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Vercel-26264C?style=for-the-badge&logo=vercel&logoColor=B199DB" alt="Vercel" />
-</p>
+**languages**
+<br>
+<img src="https://img.shields.io/badge/C++-15152B?style=flat-square&logo=cplusplus&logoColor=B199DB" />
+<img src="https://img.shields.io/badge/Java-15152B?style=flat-square&logo=openjdk&logoColor=B199DB" />
+<img src="https://img.shields.io/badge/Python-15152B?style=flat-square&logo=python&logoColor=B199DB" />
+<img src="https://img.shields.io/badge/TypeScript-15152B?style=flat-square&logo=typescript&logoColor=B199DB" />
+<img src="https://img.shields.io/badge/JavaScript-15152B?style=flat-square&logo=javascript&logoColor=B199DB" />
 
-<br><br>
+</td>
+<td valign="top" width="33%">
 
-<h2 align="center">✦ Featured Projects</h2>
+**frameworks**
+<br>
+<img src="https://img.shields.io/badge/React-15152B?style=flat-square&logo=react&logoColor=B199DB" />
+<img src="https://img.shields.io/badge/Next.js-15152B?style=flat-square&logo=nextdotjs&logoColor=B199DB" />
+<img src="https://img.shields.io/badge/Node.js-15152B?style=flat-square&logo=nodedotjs&logoColor=B199DB" />
+<img src="https://img.shields.io/badge/Tailwind-15152B?style=flat-square&logo=tailwindcss&logoColor=B199DB" />
+
+</td>
+<td valign="top" width="33%">
+
+**data & tools**
+<br>
+<img src="https://img.shields.io/badge/MySQL-15152B?style=flat-square&logo=mysql&logoColor=B199DB" />
+<img src="https://img.shields.io/badge/MongoDB-15152B?style=flat-square&logo=mongodb&logoColor=B199DB" />
+<img src="https://img.shields.io/badge/Git-15152B?style=flat-square&logo=git&logoColor=B199DB" />
+<img src="https://img.shields.io/badge/Vercel-15152B?style=flat-square&logo=vercel&logoColor=B199DB" />
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- ================= PROJECTS ================= -->
+<h3 align="center">✧ things I've sent into orbit</h3>
 
 <p align="center">
   <a href="https://github.com/aneeqakazmi137/PakFuel-Crisis-Tracker">
-    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=PakFuel-Crisis-Tracker&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="PakFuel Crisis Tracker" />
+    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=PakFuel-Crisis-Tracker&theme=tokyonight&bg_color=00000000&border_color=45538A&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="PakFuel Crisis Tracker" />
   </a>
   &nbsp;
   <a href="https://github.com/aneeqakazmi137/java-network-chat">
-    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=java-network-chat&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="Java Network Chat" />
+    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=java-network-chat&theme=tokyonight&bg_color=00000000&border_color=45538A&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="Java Network Chat" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/aneeqakazmi137/java-pos-mysql">
-    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=java-pos-mysql&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="Java POS MySQL" />
+    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=java-pos-mysql&theme=tokyonight&bg_color=00000000&border_color=45538A&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="Java POS MySQL" />
   </a>
   &nbsp;
   <a href="https://github.com/aneeqakazmi137/modern-dev-portfolio">
-    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=modern-dev-portfolio&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="Modern Dev Portfolio" />
+    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=modern-dev-portfolio&theme=tokyonight&bg_color=00000000&border_color=45538A&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="Modern Dev Portfolio" />
   </a>
 </p>
 
-<br><br>
+<br>
 
-<h2 align="center">✦ GitHub Activity</h2>
+<!-- ================= ACTIVITY ================= -->
+<h3 align="center">✧ signal history</h3>
 
 <p align="center">
-  <img src="./contrib-heatmap.svg" width="900" alt="Contribution heatmap" />
+  <img src="./contrib-heatmap.svg" width="880" alt="Contribution heatmap" />
 </p>
 
 <p align="center">
-  <img src="./info-card.svg" width="450" alt="Info card" />
+  <img src="./info-card.svg" width="430" alt="Info card" />
   &nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aneeqakazmi137&theme=tokyonight&background=00000000&border=724972&stroke=724972&ring=B199DB&fire=B199DB&currStreakNum=E9CCD3&sideNums=E9CCD3&currStreakLabel=B199DB&sideLabels=B199DB&dates=724972" width="420" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aneeqakazmi137&theme=tokyonight&background=00000000&border=45538A&stroke=45538A&ring=B199DB&fire=B199DB&currStreakNum=E9CCD3&sideNums=E9CCD3&currStreakLabel=B199DB&sideLabels=B199DB&dates=724972" width="410" alt="GitHub Streak" />
 </p>
 
-<br><br>
+<br>
 
-<h2 align="center">✦ Mindset</h2>
+<!-- ================= NOTES ================= -->
+<h3 align="center">✧ notes to self, mostly</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=22&pause=10000&color=B199DB&center=true&vCenter=true&width=850&height=80&lines=%22A+person+grows+up+when+he's+able+to+overcome+hardships.%22+%E2%80%94+Jiraiya%2C+Naruto;%22If+you+win%2C+you+live.+If+you+lose%2C+you+die.%22+%E2%80%94+Eren+Yeager%2C+Attack+on+Titan;%22If+you+don't+take+risks%2C+you+can't+create+a+future.%22+%E2%80%94+Monkey+D.+Luffy%2C+One+Piece;%22A+sword+held+by+someone+about+to+die+will+never+protect+anything.%22+%E2%80%94+Kisuke+Urahara%2C+Bleach;%22We+choose+to+push+our+limits+because+staying+static+is+true+defeat.%22+%E2%80%94+Satoru+Gojo%2C+Jujutsu+Kaisen;%22A+real+man+doesn't+need+a+reason+to+help+someone+in+trouble.%22+%E2%80%94+Thorfinn%2C+Vinland+Saga" alt="Mindset quote carousel" />
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=500&size=17&pause=8000&color=B199DB&center=true&vCenter=true&width=800&height=60&lines=slow+progress+still+counts+as+progress.;done+is+a+decision%2C+not+a+feeling.;build+quietly%2C+let+it+speak+for+itself." alt="Notes" />
 </p>
 
-<p align="center">
-  <img src="./assets/ichigo-accent.svg" width="800" alt="Bleach Ichigo Kurosaki Accent" />
-</p>
+<br>
 
-<br><br>
-
-<h2 align="center">✦ Contact</h2>
+<!-- ================= CONTACT ================= -->
+<h3 align="center">✧ signal me</h3>
 
 <p align="center">
 
 ```powershell
 PS C:\Visitors> whoami
-Aneeqa
+Aneeqa Kazmi
 
 PS C:\Visitors> status
-Learning & Building
+learning, building, mostly at night
 
 PS C:\Visitors> portfolio
-github.com/aneeqakazmi137/modern-dev-portfolio
+modern-dev-portfolio-five.vercel.app
 
-PS C:\Visitors> email
+PS C:\Visitors> contact
 kazmianeeqai13@gmail.com
 ```
 
@@ -125,28 +144,26 @@ kazmianeeqai13@gmail.com
 
 <p align="center">
   <a href="https://github.com/aneeqakazmi137" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-26264C?style=for-the-badge&logo=github&logoColor=B199DB" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-15152B?style=for-the-badge&logo=github&logoColor=B199DB" />
   </a>
   &nbsp;
   <a href="https://modern-dev-portfolio-five.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-45538A?style=for-the-badge&logo=vercel&logoColor=E9CCD3" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-15152B?style=for-the-badge&logo=vercel&logoColor=E9CCD3" />
   </a>
   &nbsp;
   <a href="mailto:kazmianeeqai13@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-724972?style=for-the-badge&logo=gmail&logoColor=E9CCD3" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-15152B?style=for-the-badge&logo=gmail&logoColor=E9CCD3" />
   </a>
-</p>
-
-<br><br>
-
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=aneeqakazmi137.aneeqakazmi137&left_color=26264C&right_color=724972&left_text=Profile%20Views" alt="Profile Views" />
 </p>
 
 <br>
 
 <p align="center">
-  <img src="./assets/cya-footer.svg" width="300" alt="CYA!" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=aneeqakazmi137.aneeqakazmi137&left_color=0B0B2E&right_color=45538A&left_text=passed%20through" alt="Profile Views" />
 </p>
 
+<br>
 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:B199DB,35:45538A,65:26264C,100:0B0B2E&height=120&section=footer"/>
+</div>
