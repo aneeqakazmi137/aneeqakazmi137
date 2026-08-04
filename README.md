@@ -28,7 +28,10 @@
 <td align="center" valign="middle" bgcolor="#1B1640" width="70%" style="border-radius: 14px;">
 
 <p align="center">
-  <font size="6" color="#B199DB"><b>Software Engineering enthusiast.</b></font><br><br>
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=90&section=header&text=Software%20Engineering%20enthusiast.&fontSize=34&fontColor=B199DB&animation=twinkling&fontAlignY=55" width="100%" alt="Software Engineering enthusiast." />
+</p>
+
+<p align="center">
   <font size="5" color="#E9CCD3">Learning, building, and sharing code that might make someone's life a little easier.</font>
 </p>
 
