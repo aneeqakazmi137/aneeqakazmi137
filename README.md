@@ -2,13 +2,13 @@
 <div align="center">
 
 <a href="https://github.com/aneeqakazmi137">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0B0B2E,25:26264C,55:45538A,100:B199DB&height=200&section=header&text=Hewwo!%20I'm%20Aneeqa&fontSize=58&fontColor=E9CCD3&animation=twinkling&fontAlignY=40" alt="Hewwo! I'm Aneeqa" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0B0B2E,25:26264C,55:45538A,100:B199DB&height=200&section=header&text=Hewwo!%20I'm%20Aneeqa&fontSize=58&fontColor=E9CCD3&animation=twinkling" width="100%"/>
 </a>
 
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=30&pause=3000&color=B199DB&center=true&vCenter=true&width=700&height=48&lines=Goal+is+to+awaken+my+Sharingan+in+code...;Learning.+Building.+Breaking.+Repeating." alt="Typing headline" />
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=30&pause=3000&color=B199DB&center=true&vCenter=true&width=700&height=48&lines=Goal+is+to+awaken+my+Sharingan+in+code...;Learning%20%26%20Building;Always%20Evolving" width="100%"/>
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
 <td align="center" valign="middle" bgcolor="#1B1640" width="70%" style="border-radius: 14px;">
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=90&section=header&text=Software%20Engineering%20enthusiast.&fontSize=34&fontColor=B199DB&animation=twinkling&fontAlignY=55" width="100%" alt="Software Engineering enthusiast." />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=90&section=header&text=Software%20Engineering%20enthusiast.&fontSize=34&fontColor=B199DB&animation=twinkling&fontAlignY=55" width="100%"/>
 </p>
 
 <p align="center">
@@ -84,20 +84,20 @@
 
 <p align="center">
   <a href="https://github.com/aneeqakazmi137/PakFuel-Crisis-Tracker">
-    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=PakFuel-Crisis-Tracker&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="PakFuel Crisis Tracker" />
+    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=PakFuel-Crisis-Tracker&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3" alt="PakFuel Crisis Tracker" />
   </a>
   &nbsp;
   <a href="https://github.com/aneeqakazmi137/java-network-chat">
-    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=java-network-chat&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="Java Network Chat" />
+    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=java-network-chat&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3" alt="Java Network Chat" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/aneeqakazmi137/java-pos-mysql">
-    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=java-pos-mysql&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="Java POS MySQL" />
+    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=java-pos-mysql&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3" alt="Java POS MySQL" />
   </a>
   &nbsp;
   <a href="https://github.com/aneeqakazmi137/modern-dev-portfolio">
-    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=modern-dev-portfolio&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3&icon_color=B199DB" alt="Modern Dev Portfolio" />
+    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=aneeqakazmi137&repo=modern-dev-portfolio&theme=tokyonight&bg_color=00000000&border_color=724972&title_color=B199DB&text_color=E9CCD3" alt="Modern Dev Portfolio" />
   </a>
 </p>
 
@@ -112,23 +112,7 @@
 <p align="center">
   <img src="./info-card.svg" width="450" alt="Info card" />
   &nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aneeqakazmi137&theme=tokyonight&background=00000000&border=724972&stroke=724972&ring=B199DB&fire=B199DB&currStreakNum=E9CCD3&sideNums=E9CCD3&currStreakLabel=B199DB&sideLabels=B199DB&dates=724972" width="420" alt="GitHub Streak" />
-</p>
-
-<br><br>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.gif" width="100%">
-</p>
-
-<h2 align="center">✦ Mindset</h2>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=22&pause=10000&color=B199DB&center=true&vCenter=true&width=850&height=80&lines=%22A+person+grows+up+when+he's+able+to+overcome+hardships.%22+%E2%80%94+Jiraiya%2C+Naruto;%22If+you+win%2C+you+live.+If+you+lose%2C+you+die.%22+%E2%80%94+Eren+Yeager%2C+Attack+on+Titan;%22If+you+don't+take+risks%2C+you+can't+create+a+future.%22+%E2%80%94+Monkey+D.+Luffy%2C+One+Piece;%22A+sword+held+by+someone+about+to+die+will+never+protect+anything.%22+%E2%80%94+Kisuke+Urahara%2C+Bleach;%22We+choose+to+push+our+limits+because+staying+static+is+true+defeat.%22+%E2%80%94+Satoru+Gojo%2C+Jujutsu+Kaisen;%22A+real+man+doesn't+need+a+reason+to+help+someone+in+trouble.%22+%E2%80%94+Thorfinn%2C+Vinland+Saga" alt="Mindset quote carousel" />
-</p>
-
-<p align="center">
-  <img src="./assets/ichigo-accent.svg" width="800" alt="Bleach Ichigo Kurosaki Accent" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aneeqakazmi137&theme=tokyonight&background=00000000&border=724972&stroke=724972&ring=B199DB&fire=B199DB&currStreakNum=E9CCD3&sideNums=B199DB" width="450" alt="GitHub Streak" />
 </p>
 
 <br><br>
